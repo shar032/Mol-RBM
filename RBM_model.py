@@ -48,11 +48,6 @@ input_SMILES_visible_vectors = tf.convert_to_tensor([rbm_process.one_hot_SMILES_
     
 input_SMILES_visible_vectors = tf.cast(input_SMILES_visible_vectors, tf.float32)
 
-    
-    
-    
-    
-
 # Define and initialise the weights and biases for both layers and other functions 
 W = tf.Variable(tf.compat.v2.random.normal([n_visible, n_hidden], 0.01, dtype = tf.float32), name = "W")
 b_h = tf.Variable(tf.zeros([1, n_hidden], tf.float32, name = "b_h"))
