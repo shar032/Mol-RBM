@@ -1,5 +1,5 @@
 # Mol-RBM
-Mol-RBM for modelling molecular data, analog generation, featurization for supervision, pre-training using SMILES string representation of molecules. 
+Mol-RBM for modelling molecular data, analog generation, featurization for supervision, and pre-training using SMILES string representation of molecules. 
 
 ### Dependencies
 - [Numpy](https://anaconda.org/conda-forge/numpy)
@@ -12,4 +12,3 @@ Mol-RBM for modelling molecular data, analog generation, featurization for super
 ```python
 python RBM_train.py
 ```
-
